@@ -24,6 +24,9 @@ function Strengths()
 
                         <h4 style={{textAlign: "left"}}>React.js</h4>
                         <ProgressBar style={{width: 500}} variant="warning" now={40} />
+
+                        <h4 style={{textAlign: "left"}}>Node.js</h4>
+                        <ProgressBar style={{width: 500}} variant="warning" now={40} />
                     </Col>
 
                     <Col md={6}>
@@ -40,6 +43,11 @@ function Strengths()
 
                     <h4 style={{textAlign: "left"}}>Flask</h4>
                     <ProgressBar style={{width: 500}} now={60} />
+
+                    <h4 style={{textAlign: "left"}}>MongoDB</h4>
+                    <ProgressBar style={{width: 500}} now={40} />
+
+                    
                     </Col>
                 </Row>
             </Container>
